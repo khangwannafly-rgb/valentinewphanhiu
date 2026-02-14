@@ -1,21 +1,22 @@
 body {
   text-align: center;
   margin-top: 30px;
-  font-family: "Courier";
+  font-family: courier;
   background-color: #fff5e4;
   color: #ff9494;
 }
-#foodquestion {
+#dessertquestion {
   font-size: 50px;
   margin-bottom: 30px;
+  font-weight: bold;
 }
-.food-item {
-  display: inline-block;
+.dessert-item {
+  display: inline-table;
   margin: 10px;
   vertical-align: top;
   color: #ff9494;
 }
-.food-item img {
+.dessert-item img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -23,7 +24,7 @@ body {
   object-fit: cover;
   padding: 10px;
 }
-.food-item label {
+.dessert-item label {
   display: block;
 }
 .button {

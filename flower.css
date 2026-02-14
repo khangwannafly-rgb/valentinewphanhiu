@@ -5,17 +5,17 @@ body {
   background-color: #fff5e4;
   color: #ff9494;
 }
-#foodquestion {
+#activityquestion {
   font-size: 50px;
   margin-bottom: 30px;
 }
-.food-item {
+.activity-item {
   display: inline-block;
   margin: 10px;
   vertical-align: top;
   color: #ff9494;
 }
-.food-item img {
+.activity-item img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -23,7 +23,7 @@ body {
   object-fit: cover;
   padding: 10px;
 }
-.food-item label {
+.activity-item label {
   display: block;
 }
 .button {
